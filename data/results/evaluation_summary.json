@@ -1,0 +1,81 @@
+{
+  "total_samples": 20,
+  "accuracy": 0.5,
+  "macro_f1": 0.4825,
+  "mean_iou": 0.6244,
+  "latency": {
+    "mean_ms": 15.18,
+    "median_ms": 13.95,
+    "p95_ms": 18.73,
+    "fps": 65.9
+  },
+  "per_class": {
+    "Normal": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571,
+      "support": 4
+    },
+    "Scratch": {
+      "precision": 0.5,
+      "recall": 0.25,
+      "f1": 0.3333,
+      "support": 4
+    },
+    "Crack": {
+      "precision": 0.5,
+      "recall": 0.25,
+      "f1": 0.3333,
+      "support": 4
+    },
+    "Pit": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6667,
+      "support": 4
+    },
+    "Stain": {
+      "precision": 0.2,
+      "recall": 0.25,
+      "f1": 0.2222,
+      "support": 4
+    }
+  },
+  "confusion_matrix": [
+    [
+      3,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      2
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3,
+      1
+    ]
+  ]
+}

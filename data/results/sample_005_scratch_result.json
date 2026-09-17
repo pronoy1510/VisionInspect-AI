@@ -1,0 +1,35 @@
+{
+  "image_path": "data\\samples\\sample_005_scratch.png",
+  "is_defective": true,
+  "primary_defect": "Stain",
+  "defect_count": 2,
+  "overall_severity": "Critical",
+  "global_anomaly_score": 0.2484,
+  "latency_ms": 48.68,
+  "defects": [
+    {
+      "type": "Stain",
+      "confidence": 0.8988,
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "area": 65025.0,
+      "severity": "Critical"
+    },
+    {
+      "type": "Scratch",
+      "confidence": 0.7913,
+      "bbox": [
+        180,
+        0,
+        6,
+        50
+      ],
+      "area": 97.0,
+      "severity": "Critical"
+    }
+  ]
+}
