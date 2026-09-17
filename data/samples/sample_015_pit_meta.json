@@ -1,0 +1,18 @@
+{
+  "type": "Pit",
+  "is_defective": true,
+  "defects": [
+    {
+      "type": "Pit",
+      "bbox": [
+        196,
+        174,
+        18,
+        18
+      ]
+    }
+  ],
+  "image_file": "sample_015_pit.png",
+  "mask_file": "sample_015_pit_mask.png",
+  "texture": "ceramic"
+}

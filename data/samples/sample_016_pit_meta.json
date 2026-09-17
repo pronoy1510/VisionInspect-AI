@@ -1,0 +1,18 @@
+{
+  "type": "Pit",
+  "is_defective": true,
+  "defects": [
+    {
+      "type": "Pit",
+      "bbox": [
+        161,
+        27,
+        26,
+        26
+      ]
+    }
+  ],
+  "image_file": "sample_016_pit.png",
+  "mask_file": "sample_016_pit_mask.png",
+  "texture": "cast_iron"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "Normal",
+  "is_defective": false,
+  "defects": [],
+  "image_file": "sample_002_normal.png",
+  "mask_file": "sample_002_normal_mask.png",
+  "texture": "metal"
+}

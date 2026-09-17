@@ -1,0 +1,18 @@
+{
+  "type": "Stain",
+  "is_defective": true,
+  "defects": [
+    {
+      "type": "Stain",
+      "bbox": [
+        154,
+        125,
+        45,
+        49
+      ]
+    }
+  ],
+  "image_file": "sample_017_stain.png",
+  "mask_file": "sample_017_stain_mask.png",
+  "texture": "ceramic"
+}

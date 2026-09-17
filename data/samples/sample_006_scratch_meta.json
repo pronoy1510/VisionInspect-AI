@@ -1,0 +1,18 @@
+{
+  "type": "Scratch",
+  "is_defective": true,
+  "defects": [
+    {
+      "type": "Scratch",
+      "bbox": [
+        44,
+        1,
+        37,
+        58
+      ]
+    }
+  ],
+  "image_file": "sample_006_scratch.png",
+  "mask_file": "sample_006_scratch_mask.png",
+  "texture": "cast_iron"
+}

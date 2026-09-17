@@ -1,0 +1,18 @@
+{
+  "type": "Crack",
+  "is_defective": true,
+  "defects": [
+    {
+      "type": "Crack",
+      "bbox": [
+        49,
+        136,
+        49,
+        96
+      ]
+    }
+  ],
+  "image_file": "sample_010_crack.png",
+  "mask_file": "sample_010_crack_mask.png",
+  "texture": "ceramic"
+}
