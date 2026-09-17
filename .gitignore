@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest cache
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Temporary builder scripts
+build_project.py
+make_source.py
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
