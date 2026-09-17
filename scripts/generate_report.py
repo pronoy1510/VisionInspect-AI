@@ -135,6 +135,7 @@ def build_pdf_report(pdf_path: Path):
 
     cover_table_data = [
         [Paragraph("<b>Author / Student:</b>", body_style), Paragraph("Pronoy (@pronoy1510)", body_style)],
+        [Paragraph("<b>GitHub Repository:</b>", body_style), Paragraph('<font color="#2B6CB0"><u>https://github.com/pronoy1510/VisionInspect-AI</u></font>', body_style)],
         [Paragraph("<b>Course:</b>", body_style), Paragraph("Computer Vision (Flipped Evaluation)", body_style)],
         [Paragraph("<b>Project Domain:</b>", body_style), Paragraph("Industrial Optical Inspection & Anomaly Localization", body_style)],
         [Paragraph("<b>Evaluation Platform:</b>", body_style), Paragraph("VITyarthi Learning Platform", body_style)],
